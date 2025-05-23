@@ -12,8 +12,15 @@
   installed.
 - Use "ruff check" to check lint, "ruff format" to autoformat files and
   "pyright" to typecheck.
-- When writing the PR description, include the original prompt supplied by the
-  user.
+- Follow this PR template:
+  ```
+  ### Original User Prompt
+  <....>
+  ### Summary
+  <....>
+  ### Testing
+  <....>
+  ```
 - When you add functionality to the server, add server tests to
   tests/test_server.py.  When you add features to the frontend, add frontend
   tests to tests/test_web.py
